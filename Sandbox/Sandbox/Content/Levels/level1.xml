@@ -1,0 +1,53 @@
+<level endX="3" endY="4" startX="25" startY="30">
+  <!--Enemy #0-->
+  <enemy x="15" y="11" weaponType="1" patrolRange="0" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="00" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #1-->
+  <enemy x="23" y="11" weaponType="1" patrolRange="0" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="00" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <button x="12" y="3" uses="1">
+    <use0 type="changeTiles">
+      <target x="13" y="18" type="5" />
+      <target x="15" y="19" type="5" />
+      <target x="25" y="21" type="5" />
+      <target x="18" y="24" type="5" />
+      <target x="25" y="10" type="0" />
+      <target x="25" y="9" type="0" />
+      <target x="25" y="8" type="0" />
+      <target x="25" y="7" type="0" />
+      <target x="25" y="6" type="0" />
+      <target x="25" y="5" type="0" />
+      <target x="25" y="4" type="0" />
+      <target x="25" y="3" type="0" />
+      <target x="25" y="2" type="0" />
+      <target x="25" y="1" type="0" />
+    </use0>
+  </button>
+  <button x="28" y="3" uses="1">
+    <use0 type="changeTiles">
+      <target x="18" y="8" type="1" />
+      <target x="19" y="9" type="1" />
+      <target x="23" y="11" type="1" />
+      <target x="22" y="10" type="1" />
+      <target x="21" y="10" type="1" />
+      <target x="15" y="7" type="1" />
+      <target x="14" y="7" type="1" />
+      <target x="13" y="6" type="1" />
+      <target x="12" y="6" type="1" />
+      <target x="11" y="5" type="1" />
+      <target x="10" y="5" type="1" />
+      <target x="9" y="4" type="0" />
+      <target x="8" y="4" type="0" />
+      <target x="8" y="3" type="0" />
+      <target x="9" y="3" type="0" />
+      <target x="8" y="2" type="0" />
+      <target x="9" y="2" type="0" />
+      <target x="9" y="1" type="0" />
+      <target x="8" y="1" type="0" />
+    </use0>
+  </button>
+  <button x="7" y="7" uses="1">
+    <use0 type="changeTiles">
+      <target x="23" y="12" type="0" />
+      <target x="15" y="12" type="0" />
+    </use0>
+  </button>
+</level>

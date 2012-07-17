@@ -1,0 +1,92 @@
+<level endX="42" endY="6" startX="8" startY="8">
+  <!--Enemy #0-->
+  <enemy x="30" y="36" weaponType="2" patrolRange="0" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.0" horizViewRange="300" soundRange="00" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #1-->
+  <enemy x="34" y="36" weaponType="2" patrolRange="0" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.0" horizViewRange="300" soundRange="00" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #2-->
+  <enemy x="38" y="36" weaponType="2" patrolRange="0" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.0" horizViewRange="300" soundRange="00" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #3-->
+  <enemy x="32" y="21" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #4-->
+  <enemy x="37" y="20" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #5-->
+  <enemy x="4" y="29" weaponType="1" patrolRange="192" patrolspeed="0" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #6-->
+  <enemy x="22" y="7" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <button x="35" y="43" uses="1" sensor="true">
+    <use0 type="changeTiles">
+      <target x="34" y="37" type="0" />
+    </use0>
+  </button>
+  <button x="40" y="12" uses="1">
+    <use0 type="changeTiles">
+      <target x="28" y="13" type="0" />
+    </use0>
+  </button>
+  <button x="37" y="4" uses="1">
+    <use0 type="changeTiles">
+      <target x="32" y="6" type="0" />
+      <target x="32" y="7" type="0" />
+    </use0>
+  </button>
+  <button x="2" y="25" uses="1">
+    <use0 type="changeTiles">
+      <target x="12" y="23" type="1" />
+      <target x="11" y="22" type="1" />
+      <target x="11" y="24" type="1" />
+      <target x="11" y="23" type="1" />
+      <target x="10" y="23" type="1" />
+      <target x="9" y="23" type="1" />
+      <target x="8" y="23" type="1" />
+      <target x="6" y="23" type="1" />
+      <target x="5" y="22" type="1" />
+      <target x="5" y="24" type="1" />
+      <target x="5" y="23" type="1" />
+      <target x="4" y="23" type="1" />
+      <target x="3" y="23" type="1" />
+      <target x="2" y="23" type="1" />
+      <target x="18" y="24" type="0" />
+      <target x="19" y="24" type="0" />
+      <target x="20" y="25" type="0" />
+      <target x="21" y="25" type="0" />
+      <target x="22" y="25" type="0" />
+      <target x="23" y="25" type="0" />
+      <target x="24" y="25" type="0" />
+      <target x="25" y="26" type="0" />
+      <target x="25" y="25" type="0" />
+      <target x="18" y="25" type="0" />
+      <target x="19" y="25" type="0" />
+    </use0>
+  </button>
+  <button x="39" y="43" uses="1" sensor="true">
+    <use0 type="changeTiles">
+      <target x="38" y="37" type="0" />
+    </use0>
+  </button>
+  <button x="43" y="41" uses="1">
+    <use0 type="changeTiles">
+      <target x="26" y="43" type="0" />
+    </use0>
+  </button>
+  <button x="31" y="43" uses="1" sensor="true">
+    <use0 type="changeTiles">
+      <target x="30" y="37" type="0" />
+    </use0>
+  </button>
+  <button x="43" y="26" uses="1">
+    <use0 type="changeTiles">
+      <target x="27" y="32" type="0" />
+      <target x="27" y="33" type="0" />
+      <target x="27" y="34" type="0" />
+    </use0>
+  </button>
+  <button x="6" y="8" uses="1">
+    <use0 type="changeTiles">
+      <target x="1" y="4" type="0" />
+      <target x="1" y="5" type="0" />
+      <target x="2" y="5" type="0" />
+      <target x="2" y="6" type="0" />
+      <target x="4" y="2" type="2" />
+    </use0>
+  </button>
+</level>

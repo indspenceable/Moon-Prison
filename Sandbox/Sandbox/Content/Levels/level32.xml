@@ -1,0 +1,141 @@
+<level endX="29" endY="25" startX="2" startY="2">
+  <enemy x="29" y="7" weaponType="2" patrolRange="0" patrolspeed="0" vertViewRange="150" lazerChargeTime="1"></enemy>
+  <enemy x="10" y="7" fireInterval=".9" patrolRange="384" vertViewRange="150" patrolspeed="70"></enemy>
+  <button x="1" y="26" uses="2">
+    <use0 type="enemy">
+      <enemy x="10" y="29" horizViewRange="600">
+      </enemy>
+    </use0>
+    <use1 type="changeTiles">
+      <target x="15" y="29" type="0" />
+      <target x="24" y="29" type="0" />
+      <target x="24" y="28" type="0" />
+    </use1>
+  </button>
+  <button x="1" y="25" uses="1">
+    <use0 type="changeTiles">
+      <target x="16" y="29" type="5" />
+      <target x="17" y="29" type="5" />
+      <target x="18" y="29" type="5" />
+      <target x="19" y="29" type="5" />
+      <target x="20" y="29" type="5" />
+      <target x="21" y="29" type="5" />
+      <target x="22" y="29" type="5" />
+      <target x="23" y="29" type="5" />
+      <target x="16" y="28" type="3" />
+      <target x="17" y="28" type="3" />
+      <target x="18" y="28" type="3" />
+      <target x="19" y="28" type="3" />
+      <target x="20" y="28" type="3" />
+      <target x="21" y="28" type="3" />
+      <target x="22" y="28" type="3" />
+      <target x="23" y="28" type="3" />
+      <target x="25" y="21" type="0" />
+      <target x="26" y="21" type="0" />
+      <target x="28" y="21" type="0" />
+      <target x="29" y="21" type="0" />
+    </use0></button>
+  <button x="1" y="24" uses="1">
+    <use0 type="changeTiles">
+      <target x="2" y="27" type="3" />
+      <target x="4" y="27" type="3" />
+      <target x="6" y="27" type="3" />
+      <target x="8" y="27" type="3" />
+      <target x="12" y="27" type="3" />
+      <target x="11" y="27" type="3" />
+      <target x="14" y="27" type="3" />
+      <target x="15" y="26" type="0" />
+      <target x="24" y="23" type="1" />
+      <target x="24" y="24" type="1" />
+      <target x="24" y="25" type="1" />
+      <target x="24" y="26" type="1" />
+      <target x="24" y="27" type="1" />
+      <target x="24" y="29" type="1" />
+      <target x="24" y="28" type="1" />
+    </use0></button>
+  <button x="1" y="23" uses="1" cycles="true">
+    <use0 type="changeTiles">
+      <target x="2" y="20" type="1" />
+      <target x="1" y="20" type="1" />
+      <target x="1" y="19" type="1" />
+      <target x="7" y="18" type="2" />
+      <target x="15" y="22" type="0" />
+      <target x="14" y="22" type="0" />
+      <target x="13" y="22" type="0" />
+      <target x="12" y="22" type="0" />
+      <target x="11" y="22" type="0" />
+      <target x="10" y="22" type="0" />
+      <target x="9" y="22" type="0" />
+      <target x="8" y="22" type="0" />
+      <target x="7" y="22" type="0" />
+      <target x="6" y="22" type="0" />
+      <target x="5" y="22" type="0" />
+      <target x="4" y="22" type="0" />
+      <target x="3" y="22" type="0" />
+      <target x="2" y="22" type="0" />
+    </use0></button>
+  <button x="1" y="22" uses="2">
+    <use0 type="changeTiles">
+      <target x="15" y="22" type="3" />
+      <target x="14" y="22" type="3" />
+      <target x="13" y="22" type="3" />
+      <target x="12" y="22" type="3" />
+      <target x="11" y="22" type="3" />
+      <target x="10" y="22" type="3" />
+      <target x="9" y="22" type="3" />
+      <target x="8" y="22" type="3" />
+      <target x="7" y="22" type="3" />
+      <target x="6" y="22" type="3" />
+      <target x="5" y="22" type="3" />
+      <target x="4" y="22" type="3" />
+      <target x="3" y="22" type="3" />
+      <target x="2" y="22" type="3" />
+    </use0>
+    <use1 type="changeTiles">
+      <target x="15" y="22" type="3" />
+      <target x="14" y="22" type="3" />
+      <target x="13" y="22" type="3" />
+      <target x="12" y="22" type="3" />
+      <target x="11" y="22" type="3" />
+      <target x="10" y="22" type="3" />
+      <target x="9" y="22" type="3" />
+      <target x="8" y="22" type="3" />
+      <target x="7" y="22" type="3" />
+      <target x="6" y="22" type="3" />
+      <target x="5" y="22" type="3" />
+      <target x="4" y="22" type="3" />
+      <target x="3" y="22" type="3" />
+      <target x="2" y="22" type="3" />
+    </use1></button>
+  <button x="5" y="13" uses="1">
+    <use0 type="changeTiles">
+      <target x="1" y="13" type="0" />
+      <target x="6" y="14" type="0" />
+      <target x="6" y="15" type="0" />
+      <target x="6" y="16" type="0" />
+      <target x="6" y="17" type="1" />
+      <target x="5" y="17" type="1" />
+      <target x="4" y="17" type="1" />
+      <target x="3" y="17" type="1" />
+      <target x="2" y="17" type="1" />
+      <target x="1" y="17" type="1" /></use0></button>
+  <button x="11" y="1" uses="1">
+    <use0 type="changeTiles">
+      <target x="6" y="4" type="3" />
+      <target x="4" y="4" type="3" />
+      <target x="5" y="4" type="3" />
+      <target x="7" y="4" type="3" />
+      <target x="8" y="4" type="3" />
+      <target x="8" y="3" type="3" />
+      <target x="7" y="3" type="3" />
+      <target x="6" y="3" type="3" />
+      <target x="5" y="3" type="3" />
+      <target x="4" y="3" type="3" />
+      <target x="17" y="3" type="0" />
+      <target x="17" y="2" type="0" />
+      <target x="17" y="1" type="0" />
+      <target x="13" y="3" type="0" />
+      <target x="13" y="2" type="0" />
+      <target x="13" y="1" type="0" />
+    </use0></button>
+</level>

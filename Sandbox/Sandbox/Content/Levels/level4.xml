@@ -1,0 +1,24 @@
+<level endX="7" endY="7" startX="0" startY="0">
+  <button x="29" y="1" uses="1" modifiesTiles="true">
+    <use0 type="changeTiles">
+    <target x="10" y="4" type="1" /><target x="11" y="5" type="1" /><target x="12" y="6" type="1" /><target x="13" y="7" type="1" /><target x="15" y="7" type="0" /><target x="21" y="9" type="0" /><target x="20" y="9" type="0" /><target x="19" y="9" type="0" /><target x="18" y="9" type="0" /><target x="17" y="9" type="0" /><target x="16" y="9" type="0" /><target x="17" y="8" type="0" /><target x="16" y="8" type="0" /><target x="17" y="7" type="0" /><target x="16" y="7" type="0" /><target x="22" y="9" type="5" />
+    </use0>
+  </button>
+  <button x="21" y="17" uses="1" modifiesTiles="true">
+    <use0 type="changeTiles">
+    <target x="16" y="2" type="0" /><target x="26" y="10" type="0" /><target x="27" y="10" type="0" /><target x="28" y="10" type="0" /><target x="29" y="10" type="0" /><target x="29" y="11" type="0" /><target x="29" y="12" type="0" /><target x="28" y="12" type="0" /><target x="27" y="12" type="0" /><target x="27" y="13" type="0" /><target x="27" y="14" type="0" /><target x="28" y="14" type="0" /><target x="29" y="14" type="0" /><target x="29" y="15" type="0" /><target x="29" y="16" type="0" /><target x="28" y="16" type="0" /><target x="27" y="16" type="0" /><target x="27" y="17" type="0" /><target x="27" y="18" type="0" /><target x="28" y="18" type="0" /><target x="29" y="18" type="0" /><target x="29" y="19" type="0" /><target x="29" y="20" type="0" /><target x="28" y="20" type="0" /><target x="27" y="20" type="0" /><target x="27" y="21" type="0" /><target x="27" y="22" type="0" /><target x="28" y="22" type="0" /><target x="29" y="23" type="0" /><target x="29" y="22" type="0" /><target x="29" y="24" type="0" /><target x="28" y="24" type="0" /><target x="27" y="24" type="0" /><target x="26" y="24" type="0" />
+    </use0>
+  </button>
+  <button x="16" y="11" uses="1" modifiesTiles="true">
+    <use0 type="changeTiles">
+    <target x="16" y="2" type="1" /><target x="24" y="16" type="0" /><target x="23" y="12" type="5" /><target x="22" y="12" type="5" /><target x="21" y="12" type="5" /><target x="20" y="12" type="5" /><target x="19" y="12" type="5" />
+    </use0>
+  </button>
+  <button x="9" y="21" uses="1" modifiesTiles="true">
+    <use0 type="changeTiles">
+    <target x="5" y="28" type="0" /><target x="5" y="29" type="0" /><target x="2" y="25" type="0" /><target x="2" y="24" type="0" /><target x="14" y="9" type="5" /><target x="13" y="12" type="2" /><target x="14" y="12" type="2" />
+    </use0>
+  </button>
+  <player x ="3" y="4"/>
+  <enemy x="8" y="28" radius="144" weaponType="1"></enemy>
+</level>

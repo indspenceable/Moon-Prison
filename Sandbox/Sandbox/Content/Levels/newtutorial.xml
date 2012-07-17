@@ -1,0 +1,81 @@
+<level endX="61" endY="8" startX="2" startY="15">
+  <!--Enemy #0-->
+  <enemy x="37" y="15" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #1-->
+  <enemy x="50" y="6" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <button x="30" y="8" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="YOUR HOOK IS ATTACHED BY LAZER BEAM. THE BEAM CAN GO THROUGH WALLS! BUT YOU CAN'T SHOOT THE HOOK ITSELF THROUGH. TRY IT!"></display>
+    </use0>
+  </button>
+  <button x="33" y="8" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="LOOK AHEAD IN ALL DIRECTIONS WITH [ARROW KEYS]!"></display>
+    </use0>
+  </button>
+  <button x="58" y="8" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="NOW GO MAKE YOUR EPIC ESCAPE!"></display>
+    </use0>
+  </button>
+  <button x="45" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="DISTRACT THIS ROBOT! HITTING A MAGNETIC TILE WITH YOUR HOOK MAKES JUST ENOUGH DISTRACTION TO SLIP THROUGH"></display>
+    </use0>
+  </button>
+  <button x="40" y="7" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="ROCKET JUMP! WHEN YOU ATTACH TO A TILE, YOU CAN BOOST OFF IT IN THE AIR WITH [SPACE]."></display>
+    </use0>
+  </button>
+  <button x="36" y="6" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="WATCH OUT FOR THE COGS! THEY WILL KILL YOU IF YOU TOUCH THEM."></display>
+    </use0>
+  </button>
+  <button x="45" y="12" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="HERE'S A BUTTON. HIT IT WITH YOUR HOOK! YOU MIGHT NEED TO GO BACK TO SEE WHAT IT DID..."></display>
+    </use0>
+  </button>
+  <button x="29" y="12" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="WATCH OUT - THERE'S A ROBOT! AVOID IT BY SWINGING OVER OVER THIS GAP."></display>
+    </use0>
+  </button>
+  <button x="24" y="15" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="PRESS W WHILE YOUR HOOK IS EXTENDED TO HOIST YOURSELF UP!."></display>
+    </use0>
+  </button>
+  <button x="23" y="15" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="SHOOT THE GRAPPLING HOOK! CLICK ON AN ORANGE MAGNETIC TILE TO LOCK ON."></display>
+    </use0>
+  </button>
+  <button x="11" y="15" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="YOU SHOULD JUMP WITH [SPACE] TO GET PAST THIS OBSTICAL."></display>
+    </use0>
+  </button>
+  <button x="2" y="15" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="WELCOME TO MOON PRISON PLEASE MAKE YOUR WAY RIGHT WITH [D]. YOU MAY GO BACKWARDS WITH [A]."></display>
+    </use0>
+  </button>
+  <button x="46" y="12" uses="1">
+    <use0 type="changeTiles">
+      <target x="26" y="8" type="0" />
+      <target x="26" y="7" type="0" />
+      <target x="26" y="6" type="0" />
+      <target x="26" y="5" type="0" />
+      <target x="26" y="4" type="0" />
+      <target x="26" y="3" type="0" />
+      <target x="26" y="2" type="0" />
+      <target x="26" y="1" type="0" />
+      <target x="23" y="2" type="2" />
+      <target x="18" y="5" type="2" />
+      <target x="22" y="7" type="2" />
+    </use0>
+  </button>
+</level>

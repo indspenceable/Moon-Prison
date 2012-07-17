@@ -1,0 +1,1 @@
+<level endX="2" endY="2" startX="1" startY="1"><button x="43" y="1" uses="1"><use0 type="changeTiles"><target x="40" y="5" type="1" /><target x="40" y="4" type="1" /><target x="40" y="1" type="1" /><target x="40" y="2" type="1" /><target x="40" y="3" type="1" /></use0></button></level>

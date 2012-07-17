@@ -1,0 +1,21 @@
+<level endX="30" endY="10" startX="14" startY="30">
+  <!--Enemy #0-->
+  <enemy x="18" y="19" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #1-->
+  <enemy x="10" y="6" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <button x="9" y="3" uses="1">
+    <use0 type="changeTiles">
+      <target x="1" y="13" type="1" />
+      <target x="12" y="8" type="0" />
+      <target x="12" y="9" type="0" />
+      <target x="11" y="11" type="0" />
+      <target x="11" y="12" type="0" />
+      <target x="12" y="12" type="0" />
+      <target x="12" y="11" type="0" />
+      <target x="12" y="10" type="0" />
+      <target x="11" y="10" type="0" />
+      <target x="11" y="9" type="0" />
+      <target x="11" y="8" type="0" />
+    </use0>
+  </button>
+</level>

@@ -1,0 +1,39 @@
+<level endX="1" endY="14" startX="1" startY="6">
+  <!--Enemy #1--><enemy x="38" y="14" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #2--><enemy x="19" y="9" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.5" lazerDuration="5"></enemy>
+  <!--Enemy #2--><enemy x="57" y="9" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #3--><enemy x="19" y="9" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #4--><enemy x="37" y="14" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <button x="7" y="14" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="Well done! You're now ready to face a real challenge"></display>
+  </use0></button><button x="26" y="14" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="Your grappling hook is attached by a powerful magnetic beam! It's all very technical, but basically that means that it can go through blocks, although the hook itself can't. Use this to avoid directly confronting the next enemy."></display>
+  </use0></button>
+  <button x="49" y="14" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="It's often useful to swing from block to block without hitting the ground. Try this to get past the next enemy."></display>
+  </use0></button>
+  <button x="53" y="6" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message ="Enemies are to be avoided. They investigate sounds, so careful about noise you make! But you can use this to your advantage as well, if you need an enemy to walk away."></display>
+  </use0></button>
+  <button x="46" y="6" uses="2" sensor="true"><use0 type="displayMessage">
+    <display message="Coins are nice to have. Collect them by moving over them. If you get enough of them you'll get a special reward."></display>
+  </use0></button>
+  <button x="38" y="1" uses="1"><use0 type="changeTiles"><target x="39" y="6" type="0" /><target x="39" y="5" type="0" /></use0></button>
+  <button x="36" y="6" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="Buttons can change the level. Sometimes it's necessary to hit them with your grappling hook to continue."></display>
+  </use0></button>
+  <button x="26" y="6" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="Sometimes you will need to jump and hook onto a tile in mid-air. Try it here."></display>
+  </use0></button>
+  <button x="19" y="6" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="The sparkly lasers make you explode. Avoid them."></display>
+  </use0></button>
+  <button x="13" y="6" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="Use the mouse to aim and click to fire your grappling hook. You can only hook to the magnetic (orange) blocks. Use 'W' and 'S' to shorten and lengthen the magnetic beam."></display>
+  </use0></button>
+  <button x="5" y="6" uses="2" sensor="true"><use0 type="displayMessage">
+    <display message="Press the spacebar to jump. Jump over these blocks to continue"></display>
+  </use0><use1 type="changeTiles"></use1></button>
+  <button x="1" y="6" uses="1" sensor="true"><use0 type="displayMessage">
+    <display message="Use the 'A' and 'D' keys to move left and right."></display>
+  </use0></button></level>

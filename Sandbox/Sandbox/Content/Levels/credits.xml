@@ -1,0 +1,204 @@
+<level endX="62" endY="5" startX="1" startY="5">
+  <!--Enemy #0-->
+  <enemy x="1" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #1-->
+  <enemy x="7" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #2-->
+  <enemy x="13" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #3-->
+  <enemy x="19" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #4-->
+  <enemy x="25" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #5-->
+  <enemy x="31" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #6-->
+  <enemy x="37" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #7-->
+  <enemy x="43" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #8-->
+  <enemy x="49" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #9-->
+  <enemy x="55" y="1" weaponType="1" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #10-->
+  <enemy x="61" y="1" weaponType="2" patrolRange="192" patrolspeed="50" vertViewRange="50" lazerChargeTime=".01" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <button x="4" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Credits:"></display>
+    </use0>
+  </button>
+  <button x="4" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Credits:"></display>
+    </use0>
+  </button>
+  <button x="4" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Credits:"></display>
+    </use0>
+  </button>
+  <button x="10" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Lead Designer: Danny Spencer"></display>
+    </use0>
+  </button>
+  <button x="10" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Lead Designer: Danny Spencer"></display>
+    </use0>
+  </button>
+  <button x="10" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Lead Designer: Danny Spencer"></display>
+    </use0>
+  </button>
+  <button x="16" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Lead Programmer: Jason Kimmel"></display>
+    </use0>
+  </button>
+  <button x="16" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Lead Programmer: Jason Kimmel"></display>
+    </use0>
+  </button>
+  <button x="16" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Lead Programmer: Jason Kimmel"></display>
+    </use0>
+  </button>
+  <button x="22" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Code Monkey: Gabe Isman"></display>
+    </use0>
+  </button>
+  <button x="22" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Code Monkey: Gabe Isman"></display>
+    </use0>
+  </button>
+  <button x="22" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Code Monkey: Gabe Isman"></display>
+    </use0>
+  </button>
+  <button x="28" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Music by Mark Poliks"></display>
+    </use0>
+  </button>
+  <button x="28" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Music by Mark Poliks"></display>
+    </use0>
+  </button>
+  <button x="28" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Music by Mark Poliks"></display>
+    </use0>
+  </button>
+  <button x="34" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Tiles and the hook by Tom Wexler"></display>
+    </use0>
+  </button>
+  <button x="34" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Tiles and the hook by Tom Wexler"></display>
+    </use0>
+  </button>
+  <button x="34" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Tiles and the hook by Tom Wexler"></display>
+    </use0>
+  </button>
+  <button x="40" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Death and particle effects by Danny Spencer"></display>
+    </use0>
+  </button>
+  <button x="40" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Death and particle effects by Danny Spencer"></display>
+    </use0>
+  </button>
+  <button x="40" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Death and particle effects by Danny Spencer"></display>
+    </use0>
+  </button>
+  <button x="46" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Everything else art-related by Gabe Isman"></display>
+    </use0>
+  </button>
+  <button x="46" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Everything else art-related by Gabe Isman"></display>
+    </use0>
+  </button>
+  <button x="46" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Everything else art-related by Gabe Isman"></display>
+    </use0>
+  </button>
+  <button x="52" y="3" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Sound FX courtesy of Ben Ferber"></display>
+    </use0>
+  </button>
+  <button x="52" y="4" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Sound FX courtesy of Ben Ferber"></display>
+    </use0>
+  </button>
+  <button x="52" y="5" uses="1" sensor="true">
+    <use0 type="displayMessage">
+      <display message="Sound FX courtesy of Ben Ferber"></display>
+    </use0>
+  </button>
+  <button x="58" y="3" uses="1" sensor="true">
+    <use0 type="changeTiles">
+      <target x="1" y="2" type="0"/>
+      <target x="7" y="2" type="0"/>
+      <target x="13" y="2" type="0"/>
+      <target x="19" y="2" type="0"/>
+      <target x="25" y="2" type="0"/>
+      <target x="31" y="2" type="0"/>
+      <target x="37" y="2" type="0"/>
+      <target x="43" y="2" type="0"/>
+      <target x="49" y="2" type="0"/>
+      <target x="55" y="2" type="0"/>
+      <target x="61" y="2" type="0"/>
+    </use0>
+  </button>
+  <button x="58" y="4" uses="1" sensor="true">
+  <use0 type="changeTiles">
+    <target x="1" y="2" type="0"/>
+    <target x="7" y="2" type="0"/>
+    <target x="13" y="2" type="0"/>
+    <target x="19" y="2" type="0"/>
+    <target x="25" y="2" type="0"/>
+    <target x="31" y="2" type="0"/>
+    <target x="37" y="2" type="0"/>
+    <target x="43" y="2" type="0"/>
+    <target x="49" y="2" type="0"/>
+    <target x="55" y="2" type="0"/>
+    <target x="61" y="2" type="0"/>
+  </use0>
+  </button>
+  <button x="58" y="5" uses="1" sensor="true">
+  <use0 type="changeTiles">
+    <target x="1" y="2" type="0"/>
+    <target x="7" y="2" type="0"/>
+    <target x="13" y="2" type="0"/>
+    <target x="19" y="2" type="0"/>
+    <target x="25" y="2" type="0"/>
+    <target x="31" y="2" type="0"/>
+    <target x="37" y="2" type="0"/>
+    <target x="43" y="2" type="0"/>
+    <target x="49" y="2" type="0"/>
+    <target x="55" y="2" type="0"/>
+    <target x="61" y="2" type="0"/>
+  </use0>
+  </button>
+</level>

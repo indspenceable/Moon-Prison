@@ -1,0 +1,135 @@
+<level endX="61" endY="61" startX="1" startY="6">
+  <!--Enemy #0-->
+  <enemy x="29" y="8" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #1-->
+  <enemy x="35" y="8" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #2-->
+  <enemy x="29" y="8" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #3-->
+  <enemy x="54" y="13" weaponType="1" patrolRange="48" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="100" soundRange="1000" investigateMaxWait="1" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #4-->
+  <enemy x="19" y="19" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #5-->
+  <enemy x="45" y="39" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #6-->
+  <enemy x="38" y="42" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #7-->
+  <enemy x="31" y="47" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #8-->
+  <enemy x="24" y="52" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #9-->
+  <enemy x="17" y="56" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <!--Enemy #10-->
+  <enemy x="6" y="54" weaponType="1" patrolRange="192" patrolSpeed="50" vertViewRange="50" lazerChargeTime="2.5" horizViewRange="300" soundRange="500" investigateMaxWait="5" fireInterval="0.2" lazerDuration="5"></enemy>
+  <button x="57" y="25" uses="1">
+    <use0 type="changeTiles">
+      <target x="36" y="61" type="3" />
+      <target x="37" y="60" type="3" />
+      <target x="60" y="58" type="0" />
+      <target x="59" y="58" type="0" />
+      <target x="58" y="58" type="0" />
+      <target x="57" y="58" type="0" />
+      <target x="56" y="58" type="0" />
+      <target x="55" y="55" type="0" />
+      <target x="55" y="56" type="0" />
+      <target x="55" y="57" type="0" />
+      <target x="55" y="58" type="0" />
+      <target x="54" y="58" type="5" />
+      <target x="54" y="57" type="0" />
+      <target x="54" y="56" type="0" />
+      <target x="54" y="55" type="0" />
+      <target x="53" y="55" type="0" />
+      <target x="53" y="56" type="0" />
+      <target x="53" y="57" type="0" />
+      <target x="53" y="58" type="0" />
+      <target x="52" y="58" type="0" />
+      <target x="52" y="57" type="0" />
+      <target x="52" y="56" type="5" />
+      <target x="52" y="55" type="0" />
+      <target x="52" y="54" type="0" />
+      <target x="53" y="54" type="0" />
+      <target x="54" y="54" type="5" />
+      <target x="55" y="54" type="0" />
+      <target x="54" y="53" type="0" />
+      <target x="55" y="53" type="0" />
+      <target x="55" y="52" type="0" />
+      <target x="55" y="51" type="0" />
+      <target x="55" y="50" type="0" />
+      <target x="52" y="53" type="0" />
+      <target x="52" y="52" type="0" />
+      <target x="52" y="51" type="0" />
+      <target x="52" y="50" type="5" />
+      <target x="52" y="49" type="0" />
+      <target x="53" y="49" type="0" />
+      <target x="54" y="49" type="0" />
+      <target x="54" y="51" type="0" />
+      <target x="54" y="52" type="0" />
+      <target x="53" y="53" type="0" />
+      <target x="53" y="52" type="5" />
+      <target x="53" y="51" type="0" />
+      <target x="53" y="50" type="0" />
+      <target x="54" y="50" type="0" />
+      <target x="55" y="49" type="0" />
+      <target x="55" y="48" type="0" />
+      <target x="54" y="48" type="0" />
+      <target x="52" y="48" type="0" />
+      <target x="53" y="48" type="5" />
+      <target x="60" y="59" type="1" />
+      <target x="59" y="59" type="1" />
+      <target x="58" y="59" type="1" />
+      <target x="57" y="59" type="1" />
+      <target x="56" y="59" type="1" />
+      <target x="55" y="59" type="1" />
+      <target x="54" y="59" type="1" />
+      <target x="53" y="59" type="1" />
+      <target x="52" y="59" type="1" />
+      <target x="51" y="59" type="1" />
+      <target x="51" y="58" type="1" />
+      <target x="51" y="57" type="1" />
+      <target x="51" y="56" type="1" />
+      <target x="51" y="55" type="1" />
+      <target x="51" y="54" type="1" />
+      <target x="51" y="53" type="1" />
+      <target x="51" y="52" type="1" />
+      <target x="51" y="51" type="1" />
+      <target x="51" y="50" type="1" />
+      <target x="51" y="49" type="1" />
+      <target x="51" y="48" type="1" />
+      <target x="61" y="47" type="0" />
+      <target x="59" y="46" type="5" />
+      <target x="58" y="46" type="5" />
+      <target x="60" y="46" type="5" />
+      <target x="61" y="46" type="5" />
+      <target x="54" y="21" type="2" />
+      <target x="61" y="22" type="0" />
+      <target x="56" y="28" type="0" />
+      <target x="56" y="29" type="0" />
+    </use0>
+  </button>
+  <button x="13" y="33" uses="1">
+    <use0 type="changeTiles">
+      <target x="28" y="31" type="2" />
+    </use0>
+  </button>
+  <button x="13" y="32" uses="1">
+    <use0 type="changeTiles">
+      <target x="23" y="31" type="2" />
+    </use0>
+  </button>
+  <button x="13" y="31" uses="2">
+    <use0 type="changeTiles">
+      <target x="18" y="31" type="2" />
+    </use0>
+  </button>
+  <button x="49" y="12" uses="2">
+    <use0 type="changeTiles">
+      <target x="61" y="14" type="0" />
+    </use0>
+    <use1 type="changeTiles">
+      <target x="60" y="17" type="0" />
+      <target x="61" y="17" type="0" />
+      <target x="49" y="17" type="1" />
+      <target x="50" y="17" type="1" />
+    </use1>
+  </button>
+</level>
